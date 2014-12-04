@@ -137,7 +137,7 @@ public class FragmentoLista extends Fragment {
             File [] array = getActivity().getExternalFilesDir(null).listFiles();
             if(array != null && array.length >0){
                 for(File a : array){
-                    if(a.getPath().contains(getString(R.string.nombre_foto)+index)){
+                    if(a.getPath().contains(getString(R.string.nombre_foto)+index+"_")){
                         a.delete();
                     }
                 }

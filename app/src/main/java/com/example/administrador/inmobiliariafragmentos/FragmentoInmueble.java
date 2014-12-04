@@ -35,7 +35,7 @@ public class FragmentoInmueble extends Fragment {
         fotos = new ArrayList<File>();
         if(array != null && array.length >0){
             for(File a : array){
-                if(a.getPath().contains(getString(R.string.nombre_foto)+idInmueble)){
+                if(a.getPath().contains(getString(R.string.nombre_foto)+idInmueble+"_")){
                     fotos.add(a);
                 }
             }
