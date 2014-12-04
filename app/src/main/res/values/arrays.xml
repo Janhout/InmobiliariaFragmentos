@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valoresTipo">
+        <item>Adosada</item>
+        <item>Chalet</item>
+        <item>Cortijo</item>
+        <item>Local</item>
+        <item>Otro</item>
+        <item>Parcela</item>
+        <item>Piso</item>
+    </string-array>
+</resources>
