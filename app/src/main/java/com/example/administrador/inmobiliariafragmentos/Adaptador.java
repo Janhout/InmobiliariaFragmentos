@@ -39,7 +39,7 @@ public class Adaptador extends ArrayAdapter<Inmueble> {
             vh = (ViewHolder) convertView.getTag();
         }
 
-        vh.tvLocalidad.setText(lista.get(position).getLocalidad());
+        vh.tvLocalidad.setText(lista.get(position).getLocalidad() + " ("+lista.get(position).getTipo()+")");
         vh.tvPrecio.setText(String.valueOf(lista.get(position).getPrecio()));
         vh.tvDireccion.setText(lista.get(position).getCalle() + " " + lista.get(position).getNumero());
 
