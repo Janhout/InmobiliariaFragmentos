@@ -50,6 +50,11 @@ public class Editar extends Activity {
     }
 
     @Override
+    public void onBackPressed() {
+        cancelar(null);
+    }
+    
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.editar);
