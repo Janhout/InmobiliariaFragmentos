@@ -12,7 +12,7 @@
     <string name="parcela_tipo">Parcela</string>
     <string name="piso_tipo">Piso</string>
     <string name="nombre_foto">inmueble_</string>
-    <string name="formato_fecha">yyyy_mm_dd_hh_mm_ss</string>
+    <string name="formato_fecha">yyyy_MM_dd_hh_mm_ss</string>
     <string name="borrar_inmueble">Borrar Inmueble</string>
     <string name="editar_inmueble">Editar Inmueble</string>
     <string name="inmueble">inmueble</string>
